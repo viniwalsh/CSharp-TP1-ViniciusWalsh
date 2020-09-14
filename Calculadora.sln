@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soma", "Soma\Soma.csproj", "{86B9EB52-71E2-4EF3-B6A3-9BD6EE4C24EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B} = {CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtracao", "Subtração\Subtracao.csproj", "{D116C37A-35A3-4A11-B8D4-F4137AAA82F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B} = {CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divisao", "Divisao\Divisao.csproj", "{4F604F4C-3E89-472D-AA8F-4F17E419FE6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B} = {CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplicacao", "Multiplicacao\Multiplicacao.csproj", "{76624CE1-1773-4B88-8962-EB7C98CEF454}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B} = {CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDD8F35-EFDA-4AB9-8557-9C9CF812AA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B9EB52-71E2-4EF3-B6A3-9BD6EE4C24EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B9EB52-71E2-4EF3-B6A3-9BD6EE4C24EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B9EB52-71E2-4EF3-B6A3-9BD6EE4C24EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B9EB52-71E2-4EF3-B6A3-9BD6EE4C24EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D116C37A-35A3-4A11-B8D4-F4137AAA82F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D116C37A-35A3-4A11-B8D4-F4137AAA82F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D116C37A-35A3-4A11-B8D4-F4137AAA82F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D116C37A-35A3-4A11-B8D4-F4137AAA82F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F604F4C-3E89-472D-AA8F-4F17E419FE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F604F4C-3E89-472D-AA8F-4F17E419FE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F604F4C-3E89-472D-AA8F-4F17E419FE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F604F4C-3E89-472D-AA8F-4F17E419FE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76624CE1-1773-4B88-8962-EB7C98CEF454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76624CE1-1773-4B88-8962-EB7C98CEF454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76624CE1-1773-4B88-8962-EB7C98CEF454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76624CE1-1773-4B88-8962-EB7C98CEF454}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0310C7F2-1C49-4C0F-8703-D02229F85E77}
+	EndGlobalSection
+EndGlobal
